@@ -9,10 +9,10 @@
     }
   ],
   "dependencies": {
-    "lodash": "3.10.1"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "mocha": "2.4.5"
+    "mocha": "^10.2.0"
   },
   "keywords": [
     "mvc",
@@ -27,7 +27,7 @@
   "homepage": "http://github.com/balderdashy/waterline-schema",
   "main": "lib/waterline-schema.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test --recursive"
+    "test": "node ./node_modules/mocha/bin/mocha ./test/**.* --recursive"
   },
   "engines": {
     "node": "*"
